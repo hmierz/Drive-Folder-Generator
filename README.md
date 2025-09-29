@@ -2,14 +2,13 @@
 Google Apps script that automates creation of student folders in Google Drive and populates them with template documents. Designed to save hours of manual folder/file setup.
 # Google Drive Folder Automation
 
-Automates creation of per-record folders under a parent folder, optional subfolders, and copies template files into each new folder. Logs results to a sheet.
+Automates creation of per-record folders under a parent folder, optional subfolders, and copies template files into each new folder. 
 
 ## Features
 - Reads names and optional keys from a tab (default `Roster`)
 - Idempotent folder creation under a fixed parent
 - Optional subfolders per record
 - Copies template files into each folder
-- Structured logging to a `Log` sheet
 - Dry-run mode for safe previews
 
 ## Setup
